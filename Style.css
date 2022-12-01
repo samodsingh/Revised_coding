@@ -1,0 +1,102 @@
+h2{
+    color: rgb(76, 0, 255);
+}
+
+.container{
+    height: 344px;
+    width: 100%;
+    border: 2px solid;
+    /* Flex properties for flex container */
+    display: flex ;
+    flex-direction: row; /*default row*/ 
+    /* flex-direction: column; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse;  */
+    flex-wrap: wrap;
+    /* flex-wrap: wrap-reverse; */
+    /* flex-flow: row-reverse wrap; flex-directio and wrap dono */ 
+    /* justify-content: center; */ 
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+    /* justify-content: space-around; */
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    /* align-items: center; */
+    align-items: stretch;
+
+}
+ 
+.item{
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    border: 2px solid rgb(0, 255, 42);
+    padding: 2px;
+    margin: 2px;
+
+}
+/* #item-1{
+    order: 3;
+}
+#item-2{
+    order: 4;
+}
+#item-3{
+    order: 5;
+} */
+
+
+ 
+/* unvisited link */
+a:link {
+    color: green;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: red;
+  }
+  
+  /* selected link */
+  a:active {
+    color: yellow;
+  } 
+  input:checked {
+    height: 50px;
+    width: 50px;
+  }
+  /* input:focus {
+    background-color: rgb(196, 196, 21);
+  } */
+
+  /* p:first-child {
+    background-color: yellow;
+  } */
+  /* p:last-child {
+    background: #ff0000;
+  } */
+  /* p:first-of-type {
+    background: red;
+  } */
+  /* p:last-of-type {
+    background: #ff0000;
+  } */
+  /* li:nth-child(2) {
+    background: lightgreen;
+  } */
+  /* li:nth-last-child(2) {
+    background: red;
+  } */
+
+  p {
+    color: #000000;
+  }
+  
+  :not(p) {
+    color: #ff0000;
+  }
